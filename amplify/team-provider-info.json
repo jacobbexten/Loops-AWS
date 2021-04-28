@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-soundsapp-dev-132023-authRole",
+      "UnauthRoleArn": "arn:aws:iam::362502013043:role/amplify-soundsapp-dev-132023-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::362502013043:role/amplify-soundsapp-dev-132023-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-soundsapp-dev-132023-deployment",
+      "UnauthRoleName": "amplify-soundsapp-dev-132023-unauthRole",
+      "StackName": "amplify-soundsapp-dev-132023",
+      "StackId": "arn:aws:cloudformation:us-west-2:362502013043:stack/amplify-soundsapp-dev-132023/9fb0bf00-a78d-11eb-b47b-0a1ab3459caf",
+      "AmplifyAppId": "d3cw631wz23vkz"
+    },
+    "categories": {
+      "auth": {
+        "soundsapp2bbb422d": {}
+      }
+    }
+  }
+}

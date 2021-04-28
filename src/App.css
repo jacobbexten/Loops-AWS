@@ -1,38 +1,67 @@
+:root {
+    --amplify-primary-color: lightcoral;
+    --amplify-primary-tint: white;
+    --amplify-primary-shade: black;
+    --amplify-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
 .App {
   text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: lightcoral;
+  min-height: 5vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .App-link {
-  color: #61dafb;
+  color: lightcoral;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.soundsList {
+    display: flex;
+    flex-direction: column;
+}
+
+.soundsCard {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.soundTitle {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.soundOwner {
+    color: lightcoral;
+}
+
+.AudioPlayer {
+    display: flex;
+    justify-content: center;
+
+}
+
+.rhap_container {
+    background-color: honeydew;
+}
+
+.rhap_time {
+    color: white;
+}
+
+.rhap_theme {
+    color: black;
 }
